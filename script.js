@@ -1,0 +1,9 @@
+// ... código anterior ...
+articulos.forEach(articulo => {
+    // ... código dentro del forEach ...
+    itemArticulo.appendChild(enlaceArticulo);  // Agrega el enlace al item
+    itemArticulo.appendChild(parrafoResumen);   // Agrega el párrafo al item
+    listaArticulos.appendChild(itemArticulo);  // Agrega el item a la lista
+  });
+  // ... código posterior ...
+  

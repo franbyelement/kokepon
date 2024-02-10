@@ -1,0 +1,30 @@
+/* ... mismo código CSS anterior ... */
+
+#contacto {
+    padding: 40px;
+}
+
+#formulario-contacto {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#formulario-contacto label {
+    margin-bottom: 10px;
+}
+
+#formulario-contacto input, #formulario-contacto textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+#formulario-contacto button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
